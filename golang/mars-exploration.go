@@ -2,8 +2,6 @@
 
 package main
 
-import "fmt"
-
 func marsExploration(s string) int32 {
 	// Write your code here
 	err := int32(0)
@@ -23,8 +21,4 @@ func marsExploration(s string) int32 {
 	}
 
 	return err
-}
-
-func main() {
-	fmt.Println(marsExploration("SOSSPSSQSSOR"))
 }
